@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>dom</title>
+</head>
+<body>
+    <main class="flex justify-center items-center flex-col">
+       <form class=" flex  items-center flex-col  w-96 h-96 mt-52 gap-5 rounded-xl  border-black border" id="form">
+        <h1 class="text-2xl font-bold"> sign in</h1>
+        <div>
+            <p class="text-black font-serif">email or mobile phone</p>
+            <input type="email" id="email" class=" border-black border w-80 h-9 rounded-xl placeholder:text-gray-500 p-1 placeholder:italic"  placeholder="email or mobile phone">
+        </div>
+        <div>
+            <p class="text-black font-serif">password</p>
+            <input type="password" id="password" class=" border-black border w-80 h-9 rounded-xl placeholder:text-gray-500 p-1 placeholder:italic"  placeholder="password">
+        </div>
+        <button type="submit" class="bg-slate-200 w-24 h-10 rounded-2xl font-mono border border-black" id="button"> LOGIN</button>
+       </form>
+       <p id="message"></p>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
